@@ -1,21 +1,17 @@
 /* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
 
-/* 
+ 
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
 .option-two-end  {
    display:none;
 }
-*/
+
 
 
 /* Feel free to change any of the styling below!*/
 html,
-
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -76,7 +72,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
-.option-two{}
+
 
 button:hover {
     background-color: #0056b3;
@@ -112,4 +108,13 @@ button:hover {
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+
+.option-one {text-align: center;}
+.option-two {text-align: center;}
+
+
+img:hover {
+    background-image: url('https://th.bing.com/th/id/OIP.wn7YTr5N3ZzDy9hfI45UqgHaD5?rs=1&pid=ImgDetMain'); opacity : 0.5;
 }
