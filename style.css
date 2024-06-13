@@ -12,6 +12,10 @@
 
 /* Feel free to change any of the styling below!*/
 html,
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +24,7 @@ body {
 /* Style the body with a background color or image if desired */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: white;
     text-align: center;
     padding: 20px;
 }
@@ -71,6 +75,8 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.option-two{}
 
 button:hover {
     background-color: #0056b3;
