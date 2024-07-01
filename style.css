@@ -118,3 +118,8 @@ button:hover {
 img:hover {
     background-image: url('https://th.bing.com/th/id/OIP.wn7YTr5N3ZzDy9hfI45UqgHaD5?rs=1&pid=ImgDetMain'); opacity : 0.5;
 }
+
+body{background-image: url('https://static.vecteezy.com/system/resources/previews/000/664/710/original/vector-abstract-technology-background-hi-tech-communication-digital-background.jpg');}
+div{background-color: lightgray;}
+
+img{width: 35%;}
